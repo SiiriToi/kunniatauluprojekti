@@ -1,0 +1,310 @@
+/*kirjautumissivu*/
+body {font-family: Arial, Helvetica, sans-serif;}
+form {background-color: rgb(35, 196, 196);}
+
+input[type=text], [type=password], input[type=email] {
+  width: 100%!important;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #32CD32;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+
+.avatar {
+  width: 30%;
+  height: 555px;
+}
+
+.container2 {
+  width: 1440px;
+  height: 300px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color:#f1f1f1;
+}
+
+span.psw, span.rekst {
+  float: right;
+  padding-top: 16px;
+}
+
+/*Muuta span- ja peruuta-painikkeiden tyylejä erittäin pienillä näytöillä*/
+@media screen and (max-width: 300px) {
+  span.psw, span.rekst {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*unohtunut salasanasivu*/
+.container3 {
+  width: 1300px;
+  height: 300px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+.sendbtn {
+  width: 250px;
+}
+
+body {
+  background-color: rgb(35, 196, 196);
+}
+
+/*rekisteröitymissivu*/
+.container4  {
+  width: 1300px;
+  height: 320px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+/*etusivun taustakuva*/
+.urheilu-etusivu {
+  background: url(https://www.omnia.fi/sites/default/files/styles/opengraph/public/2023-11/Nurmirata%2C%20urheilu%2C%20kilpailu%2C%20liikunta_0.jpg?itok=VC1i7wj0) no-repeat center fixed;
+  background-size: cover;
+}
+
+/*työpöydän leveys ja väri*/
+.container {
+  width: 1440px;
+  height: 1316px;
+  margin: 0 auto;
+  background-color: rgb(35, 196, 196);
+}
+
+.container5, .container6, .container7, .container8 {
+  width: 1440px;
+  height: 1316px;
+  margin: 0 auto;
+  background-color: rgb(35, 196, 196);
+}
+
+body .container5, .container6, .container7, .container8 {
+  background-color: rgb(215, 228, 228);
+}
+
+/*hakupainikkeen muoto*/
+.dropbtn {
+  background-color: #31df31;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('etsintaiconi.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/*juoksu kuva*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 645px;
+  height: 500px;
+}
+
+/*kuulantyöntö kuva*/
+#img2 {
+  border-radius: 8px;
+  width: 315px;
+  height: 500px;
+}
+
+/*pituushyppy kuva*/
+#img3 {
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+}
+
+/*uinti kuva*/
+#img4 {
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+}
+
+/*taulukoiden muoto*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(103, 218, 74);;
+  color: white;
+}
+
+/*etusivun otsikon muoto*/
+h1 {
+  text-align: center;
+  color: rgb(3, 151, 3);
+  font-family: Merriweather, serif;
+  font-size: 46px;
+}
+
+/*ulos kirjautumisen painike*/
+.logoutbtn {
+  float: right;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: #f44336; /* Punainen */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.logoutbtn:hover {
+  background-color: #d32f2f; /* Tumma punainen hover-efekti */
+}
+
+/*alaotsikon muoto*/
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*täydennys tekstin muoto*/
+h4 {
+  font-family: "Garamond", serif;
+}
+
+header {
+  background-color: #218b92; /* Taustaväri */
+  color: white; /* Tekstin väri */
+  padding: 55px; /* Tyhjää headerin ympärillä */
+  text-align: right; /* teksti oikealle */
+}
+
+/*linkit laatikossa*/
+body li {
+  padding: 15px;
+  background: rgb(118, 231, 90);
+}
+
+/*sivutus*/
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #218b92;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #6ee1e9;}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
+  text-align: center;
+  padding: 10px 3;
+}
+  
